@@ -8,3 +8,8 @@ dependencies = [
     "langchain>=0.3.27",
     "mcp>=1.12.2",
 ]
+
+[tool.uv.workspace]
+members = [
+    "mcp-server",
+]
