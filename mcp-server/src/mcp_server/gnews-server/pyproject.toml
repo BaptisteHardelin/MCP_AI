@@ -1,13 +1,14 @@
 [project]
 name = "gnews-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP server for the GNews API"
 readme = "README.md"
 authors = [
     { name = "BaptisteHardelin", email = "baptiste.hardelin@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "httpx>=0.28.1",
     "mcp>=2.2.0",
 ]
 

@@ -1,0 +1,3 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/mcp-server/.venv/Scripts/python.exe"
+}

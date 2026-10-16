@@ -1,7 +1,3 @@
+from gnews_server.server import main, mcp
 
-def main() -> None:
-    print("Hello from gnews-server!")
-
-
-if __name__ == "__main__":
-    main()
+__all__ = ["main", "mcp"]

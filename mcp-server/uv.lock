@@ -354,11 +354,15 @@ name = "gnews-server"
 version = "0.1.0"
 source = { editable = "src/mcp_server/gnews-server" }
 dependencies = [
+    { name = "httpx" },
     { name = "mcp" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "mcp", specifier = ">=2.2.0" }]
+requires-dist = [
+    { name = "httpx", specifier = ">=0.28.1" },
+    { name = "mcp", specifier = ">=2.2.0" },
+]
 
 [[package]]
 name = "h11"
