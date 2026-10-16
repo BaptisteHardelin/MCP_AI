@@ -7,7 +7,9 @@ authors = [
     { name = "BaptisteHardelin", email = "baptiste.hardelin@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mcp>=2.2.0",
+]
 
 [project.scripts]
 gnews-server = "gnews_server:main"
